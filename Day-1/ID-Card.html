@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID CARD</title>
+    <style>
+        body {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        h1::first-letter {
+            font-size: 70px;
+        }
+
+        h1 {
+            color: aliceblue;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 4px 4px 4px red;
+        }
+
+        div {
+            box-shadow: 5px 5px 5px 5px aliceblue;
+            padding: 20px;
+        }
+
+        b{
+            margin: 5px 0px;
+        }
+
+        br+span {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            color: aliceblue;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <marquee behavior="scroll" direction="left">
+        <h1>
+
+            MY ID CARD
+
+        </h1>
+    </marquee>
+
+    <div style="height: 350px;width: 250px;border-radius: 40px;">
+        <center>
+            <img style="border-radius: 50%;"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSVjU9BKmKy6P4146YbQb05dWqJDmyMqa-xxr4lU91YVnnF1FW_eCmQnE&s=10"
+                height="90px" width="90px" alt="">
+            <br>
+            <span>
+                <b>Name : Vivek Ayan</b>
+                <b>RollNO : VIT26CSE205</b>
+                <b>Course : Java Full Stack</b>
+                <b>About :</b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ducimus eaque quis
+                    obcaecati tenetur, odio eligendi neque quo itaque dolores possimus fugiat sunt rerum, nulla tempore
+                    nam blanditiis magni esse.</span>
+            </span>
+        </center>
+
+    </div>
+
+</body>
+
+</html>

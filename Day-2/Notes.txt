@@ -1,0 +1,122 @@
+Web Applications : 
+-----------------
+    ->Any Applications that will be run on browsers is called as a web Applications 
+
+    Types : 
+    -------
+        1.Static web Applications: 
+        ---------------------------
+            ->Any Web Applications doesn't have functionalities 
+            ->TO build Static web Applications we will only HTML & CSS 
+
+        2. Dynamic Web Applications: 
+        -----------------------------
+            ->Any Web Applications having functionalities is called dynamic web Applications
+            ->To Build dynamic web Applications HTML , CSS and JS required
+    
+
+HTML : 
+-----
+    ->
+
+
+HTML Boiler Plate: 
+-------------------
+    
+Tags: 
+----
+    ->Tags are the predefine words which are enclosed with both opening and closing angular brackets 
+    Ex: 
+        <h1> , <p> , <div>
+
+    Types: 
+        1. Paired tags : 
+        --------------
+            ->Any tags having both opening and closing tags is called as a paired tags 
+
+            Ex: 
+                1. All Heading tags 
+                            <h1>heading tag-1</h1>
+                            <h2>heading tag-2</h2>
+                            <h3>heading tag-3</h3>
+                            <h4>heading tag-4</h4>
+                            <h5>heading tag-5</h5>
+                            <h6>heading tag-6</h6>
+                2. Formatting tags 
+                        i. <b></b>              ->font  bold 
+                        ii. <strong></strong>   ->font  bold
+                        iii. <i></i>            ->font italic 
+                        iv.  <em></em>          ->font italic
+                        v.   <mark></mark>      ->light the content
+                        vi.  <u></u>            ->underline 
+                        vii. <sub></sub>        ->subscript 
+                        viii. <sup></sup>       ->superscript
+                        x.   <marquee></marquee> ->to scroll the content 
+                        xi.  <center></center>   ->align content to center 
+                                    (only work for block level elements)
+                        xii. <strick></strick> 
+
+                3. Other tags 
+                    ->Ex: <p></p> ,<div></div> ,<span></span> , all list tags , media tags , semantic tags 
+                    
+    2. unpaired Tags/ self Closing tags : 
+    --------------------------------------
+        ->Any tags having only opening tags 
+        Ex: <br> ,<hr> ,<input> , <col> , <img>..etc 
+
+
+Attributes in HTML : 
+--------------------
+    ->Attributes are the additional information given to the tags 
+    ->Attributes are always in opening tag (static tag)
+    ->most of the Attributes are key and value pair 
+
+    Ex: 
+            <input type="password" required placeholder="Enter Your Name">
+            <p align="left"  align="center"  style="color:red" id="para-container" >  content </p> 
+
+HTML Elements:
+--------------
+    ->opening tag , closing tag and content together is called as Element
+
+    Types: 
+        1. Block Level Elements 
+            ->Any Elements which will consumes Entire width of the browser 
+            Ex: 
+            all Heading Tags  ,  <div></div> , <p></p> ,<li></li> , sematic tags ..etc 
+
+
+        2. Inline Level Elements
+            ->Any Elements which will consumes only content width 
+            Ex: all Formatting Tag  , <span></span> , <input>, <img> , <a></a>
+
+
+List In HTML : 
+--------------
+    ->List are used to display items in order(numberings) or unordered(symbolic) formate 
+
+    Types: 
+    -----
+        1. Order List 
+            ->In HTML <ol> </ol> represent the order List 
+            -><ol></ol> contains <li></li> (list items)
+
+            Order List Attributes : 
+            -----------------------
+                1. type => 1 , A, a, i, I 
+                2. start => numbers 
+                3. reversed
+
+
+        2. unordered List 
+            ->In HTML <ul> </ul> represent the unordered List 
+            -><ul></ul> contains <li></li> (list items)
+
+
+            unordered List Attributes : 
+            -----------------------
+                1. type =>none , circle , square  , disc
+           
+
+        3. description /definition List 
+        4. nested List  
