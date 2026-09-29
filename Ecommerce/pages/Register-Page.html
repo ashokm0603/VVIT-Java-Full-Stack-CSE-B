@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Think Mark</legend>
+            <h1>Sign-Up Form</h1>
+            <label for="fname">FirstName :</label>
+            <input required maxlength="10" minlength="3" type="text" id="fname" placeholder="Enter FirstName">
+            <br><br>
+
+            <label for="lname">LastName :</label>
+            <input required maxlength="10" minlength="3" type="text" id="lname" placeholder="Enter LastName">
+            <br><br>
+
+            <label for="email">Email :</label>
+            <input required type="email" email" placeholder="Enter Email">
+            <br><br>
+
+            <label for="phn">Phone No: </label>
+            <input required type="tel" id="phn" pattern="[6-9]{1}[0-9]{9}" placeholder="+91">
+            <br><br>
+
+            <label for="psw">Password: </label>
+            <input required id="psw" type="password" maxlength="8" minlength="6" placeholder="create new Password">
+            <br><br>
+
+            <label for="cpsw">Confirm Password: </label>
+            <input required id="cpsw" type="password" maxlength="8" minlength="6" placeholder="confirm new Password">
+            <br><br>
+
+            <label for="dob">DateOfBirth :</label>
+            <input required id="dob" type="date">
+            <br><br>
+
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" value="Male"> <span>Male</span>   
+            <input type="radio" name="gender" value="Female"> <span>Female</span>  
+            <input type="radio" name="gender" value="Others"> <span>Others</span> 
+            <br><br>
+
+            <label for="state">State :</label>
+            <select name="state" id="state">
+                <option value="NA">Choose State</option>
+                <option value="Andra pradesh">AP</option>
+                <option value="Karnataka">KA</option>
+                <option value="Tamil nadu">TA</option>
+                <option value="telangana">TL</option>
+                <option value="kerala">KL</option>
+            </select>
+            <br><br>
+
+            <label for="address">Address :</label>
+            <textarea rows="2" cols="30" name="" id="" placeholder="Enter Full Address"></textarea>
+            <br><br>
+
+            <label for="role">Role :</label>
+            <input type="radio" name="role" value="Admin">  <span>Admin</span> 
+            <input type="radio" name="role" value="Vender">  <span>Vender</span> 
+            <input type="radio" name="role" value="Customer">  <span>Customer</span> 
+
+            <br><br>
+            <label for="">Profile Pic :</label>
+            <input type="file" accept=".png .jpeg .jpg">
+            <br><br>
+
+            <button type="submit">Register </button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

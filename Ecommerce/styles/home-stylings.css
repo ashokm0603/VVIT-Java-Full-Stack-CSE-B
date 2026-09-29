@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 10px;
+    background-image: linear-gradient(powderblue, blue);
+    /* border: 5px dotted ; */
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-around;
+    align-items: center;
+}
+
+header>img{
+    border-radius: 10px ;
+    height: 40px;
+    width: 90px;
+}
+
+
+nav>ol{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+nav>ol>li{
+    color: brown;
+    padding: 8px 20px;
+    background-color: beige;
+}

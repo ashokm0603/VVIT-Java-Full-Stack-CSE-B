@@ -8,7 +8,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/012/410/341/small/premium-security-cyber-digital-concept-abstract-technology-background-protect-system-innovation-for-business-illustration-vector.jpg");
   background-size: cover;
@@ -80,4 +80,10 @@ span{
     position: relative;
     right: 38px;
     content: "👁️";
+}
+
+span{
+  /* border: 4px dashed aliceblue; */
+  padding: 0px 0px 0px 40px;
+  color: white;
 }

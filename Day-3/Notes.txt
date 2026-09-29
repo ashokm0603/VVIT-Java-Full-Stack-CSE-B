@@ -137,3 +137,35 @@ https://github.com/ashokm0603/VVIT-Java-Full-Stack-CSE-B.git
 Ecommerce Application 
 -----------------------
     ->
+
+
+
+semantic tags : 
+--------------- 
+     <nav></nav>
+     <header></header>
+     <footer></footer>
+     <section></section>
+     <main></main>
+     <article></article>
+     <aside></aside>
+     <figure></figure>
+     <em></em>
+     <strong></strong>
+     <details></details>
+
+
+
+
+flex Properties : 
+    -------------
+        1. display:flex 
+        2. flex-direction : row , column  , row-reverse  , column-reverse
+        3. flex-warp : no-warp , warp , warp-reverse
+        4. justify-content : start , left , end , right , center , space-evenly , space-between , space-around 
+
+        5. align-items : baseline , center , end 
+
+
+
+9440776845
