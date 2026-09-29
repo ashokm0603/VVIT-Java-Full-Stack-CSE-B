@@ -1,33 +1,119 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-header{
-    padding: 10px;
-    background-image: linear-gradient(powderblue, blue);
-    /* border: 5px dotted ; */
-    display: flex;
-    flex-direction:row ;
-    justify-content:space-around;
-    align-items: center;
-}
-
-header>img{
-    border-radius: 10px ;
-    height: 40px;
-    width: 90px;
+header {
+  padding: 10px;
+  background-image: linear-gradient(powderblue, blue);
+  /* border: 5px dotted ; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
+header > img {
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+}
 
-nav>ol{
-    width: 600px;
+nav > ol {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+nav > ol > li {
+  color: brown;
+  padding: 8px 20px;
+  background-color: beige;
+  border-radius: 8px;
+}
+nav > ol > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: brown;
+}
+
+nav > ol > li:last-child{
+   position: relative;
+   left: 140px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav > ol > li>svg{
+    margin-left: 10px;
+}
+video {
+  width: 100vw;
+}
+
+#title h1 {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  color: aliceblue;
+  text-shadow: 4px 4px 4px black;
+  font-size: 35px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: scaling 4s;
+}
+
+@keyframes scaling {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+
+
+#products-container{
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
-nav>ol>li{
-    color: brown;
-    padding: 8px 20px;
-    background-color: beige;
+#products-container img{
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(135deg, #cedbe9 0%,#aac5de 9%,#6199c7 32%,#3a84c3 51%,#419ad6 59%,#4bb8f0 71%,#3a8bc2 84%,#26558b 100%);;
+    width:370px ;
+}
+
+.card h1:first-child{
+    color: aliceblue;
+    text-shadow: 3px 3px 3px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.card h1{
+    margin-left: 20px;
+}
+.card p{
+    color: rgb(88, 86, 86);
+    margin-left: 20px;
+    font-style: italic;
 }
