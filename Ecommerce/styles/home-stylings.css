@@ -52,6 +52,8 @@ video {
 }
 
 #title h1 {
+  padding: 30px;
+  /* backdrop-filter: blur(10px); */
   position: absolute;
   top: 40%;
   left: 25%;
@@ -171,7 +173,7 @@ video {
 }
 
 #brand-container h1 {
-    font-style: italic;
+  font-style: italic;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 35px;
   margin-bottom: 20px !important;
@@ -192,9 +194,9 @@ marquee > img {
   width: 100px;
   margin: 0px 60px;
 }
-footer{
-    position: relative;
-    bottom:400px;
-    height: 500px;
-    background-image: linear-gradient(transparent , blue);
+footer {
+  position: relative;
+  bottom: 400px;
+  height: 500px;
+  background-image: linear-gradient(transparent, blue);
 }

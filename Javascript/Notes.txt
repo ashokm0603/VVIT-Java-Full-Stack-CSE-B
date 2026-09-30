@@ -1,0 +1,102 @@
+Javascript : 
+------------
+    ->Javascript is the scripting language as well as programming language
+    ->Javascript is the dynamically typed programming 
+    ->Javascript having single call stack
+
+
+Use of JS : 
+-------------
+    ->Using JS We can build Dynamic web applications 
+    ->Using JS We can add functionalities to the web pages 
+    ->here we can achieve DOM(document object model) functionalities 
+    ->We can fetch data from server(API's) and we can send data to the server(API's) 
+
+
+
+
+mocha -1995  -> net scope company(browser company)
+    |
+live script 
+    |
+Javascript(ECMA) ->1996 add new features ->release new first version ES1 (ECMA script)
+
+
+->Stable version ES6 
+->present version ES16 
+
+
+
+Implementations 
+    1. inline JS 
+    2. internal JS 
+    3. External JS 
+
+
+Tokens : 
+---------
+    -> Tokens smallest units in the JS code 
+
+    Types: 
+        1. Identifiers 
+            ->Identifiers are the names give to the Code 
+            ->In the Place of Identifiers we can use keywords 
+            Ex: variable Names , class names , function Names 
+
+        2. Keywords 
+            ->
+
+        3. literals 
+        4. Operators 
+        5. Separators 
+        6. Comments 
+
+
+Variables : 
+----------
+    ->Variables are the named memory location used to store data/values and it can change N no. of times during execution 
+
+way to declear Variables 
+------------------------
+    1. let 
+        ->let variable acts like a block scop 
+        ->declaration and initialization in same line is possible 
+        ->re-declaration is not possible and re-initialization is possible 
+        ->we can not hoist "let variables"
+
+    2. var 
+        ->let variable acts like a global scop 
+        ->declaration and initialization in same line is possible 
+        ->re-declaration and re-initialization is possible 
+        ->we can hoist "var variables"
+
+    3. const 
+        ->let variable acts like a block scop and final 
+        ->declaration and initialization in same line is possible 
+        ->declaration and initialization in different line is not possible 
+        ->re-declaration and re-initialization is not possible 
+        ->we can not hoist "const variables"
+
+
+
+
+DataTypes:
+----------
+    ->DataTypes represent the what type of Data we are storing on variable 
+
+    Types: 
+        1. Primitive DataTypes 
+            i. number
+            ii. strings 
+            iii. boolean 
+            iv. null 
+            v.   undefine 
+            vi.  symbol 
+            vii .bigint 
+
+        2. Non-Primitive DataTypes
+            i. Arrays 
+            ii. Objects 
+            iii. Functions
+            iv .class Types 
+            
