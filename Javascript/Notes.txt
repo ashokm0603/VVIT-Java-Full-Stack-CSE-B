@@ -92,11 +92,42 @@ DataTypes:
             iv. null 
             v.   undefine 
             vi.  symbol 
-            vii .bigint 
+            vii. bigint 
 
         2. Non-Primitive DataTypes
             i. Arrays 
-            ii. Objects 
-            iii. Functions
+                -> Arrays are the Linear data Structures used to store both homogenous and heterogenous
+
+            ways to declear arrays: 
+            ------------------------
+                1. Literal way 
+                    Syntax: 
+                        variableType VariableName=[value1, value2,...]
+                        
+                2. using new Keyword
+                    Syntax: 
+                        variableType VariableName=new Array(value1, value2,...)
+
+            ii. Functions
+                ->Functions are the block of statements that will get execute when ever it is called
+
+                Note: 
+                    -> Code Reusable and to increase Code  Readability
+
+IN JS Types of Functions: 
+-------------------------
+            1. Anonymous Function
+            2. normal function/named function
+            3. functional expression
+            4. first class function
+            5. immediate invoking function /self calling function (IIF)
+            6. Array (ES6)
+            7. Nested Function
+            8. Higher Order Function
+            9. Callback Function
+            10. Generator function
+
+
+            iii. Objects 
             iv .class Types 
             
